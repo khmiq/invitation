@@ -1,5 +1,4 @@
 import React from "react";
-import Frame1 from "../assets/Frame1.jpg";
 import pic1 from "../assets/pic1.jpg";
 import bcg from "../assets/bcg.jpg";
 import pic2 from "../assets/pic2.jpg";
