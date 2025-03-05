@@ -1,5 +1,5 @@
 import React from 'react'
-import Frame1 from "../assets/Frame1.jpg";
+import frame1 from "../assets/frame1.jpg";
 import frame2 from "../assets/frame2.jpg";
 import frame3 from "../assets/frame3.jpg";
 import pic3 from '../assets/pic3.jpg';
@@ -76,7 +76,7 @@ const Textt = () => {
             alt="Couple Photo" 
           />
    </div>
-    <img className="w-full max-w-[500px] h-auto rounded-lg" src={Frame1} alt="Wedding Photo" />
+    <img className="w-full max-w-[500px] h-auto rounded-lg" src={frame1} alt="Wedding Photo" />
    <h1 className="font-great text-amber-800 font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl mt-10">
    Ждем Вас на свадьбе!
    </h1>
