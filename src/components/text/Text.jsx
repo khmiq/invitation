@@ -15,7 +15,7 @@ const Text = () => {
       </p>
 
       <p className="font-raleway text-sm sm:text-base md:text-lg lg:text-xl mt-4 sm:mt-6">
-      25.05.2025 в 10:00 <a className='underline font-great' href="https://maps.app.goo.gl/56phdd276V6qLS9c6">Verona Vaciapelli
+      25.08.2025 в 10:00 <a className='underline font-great' href="https://maps.app.goo.gl/56phdd276V6qLS9c6">Verona Vaciapelli
   Tашкент , ул. Арнасай , 35</a>
       </p>
 

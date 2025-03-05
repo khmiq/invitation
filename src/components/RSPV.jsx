@@ -33,7 +33,7 @@ const RSVPForm = () => {
    
     setTimeout(() => {
       setShowConfetti(false);
-    }, 6000);
+    }, 3000);
   };
 
   return (
@@ -89,7 +89,7 @@ const RSVPForm = () => {
             name="attending"
             value={formData.attending}
             onChange={(e) => setFormData({ ...formData, attending: e.target.value })}
-            className="w-full p-2 border rounded mb-2"
+            className="w-full p-2 border rounded mb-2 outline-none"
             required
           >
             <option value="">Вы придёте?</option>
@@ -103,12 +103,12 @@ const RSVPForm = () => {
             name="child"
             value={formData.child}
             onChange={(e) => setFormData({ ...formData, child: e.target.value })}
-            className="w-full p-2 border rounded mb-2"
+            className="w-full p-2 border rounded mb-2 outline-none"
             required
           >
-            <option value="">Будет ли с вами ребёнок?</option>
-            <option value="Да">Да</option>
-            <option value="Нет">Нет</option>
+            <option  value="">Будет ли с вами ребёнок?</option>
+            <option  value="Да">Да</option>
+            <option  value="Нет">Нет</option>
           </select>
 
           <button
