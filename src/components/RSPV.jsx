@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Confetti from "react-confetti";
 import axios from "axios";
 import { useWindowSize } from "react-use";
+import toast, { Toaster } from "react-hot-toast";
 
 const RSVPForm = () => {
   const { width, height } = useWindowSize();
@@ -11,8 +12,6 @@ const RSVPForm = () => {
     name: "",
     surname: "",
     attending: "",
-    food: "",
-    drink: "",
     child: "",
   });
 
@@ -20,10 +19,21 @@ const RSVPForm = () => {
     e.preventDefault();
     try {
       await axios.post("https://khmiq.onrender.com/webhook", formData);
-      alert("Ваш RSVP успешно отправлен!");
+      
+  
+      toast.success("Ваш RSVP успешно отправлен! 🎉");
+
+      
+      setFormData({
+        name: "",
+        surname: "",
+        attending: "",
+        child: "",
+      });
+
     } catch (error) {
       console.error("Ошибка отправки:", error);
-      alert("Не удалось отправить RSVP. Попробуйте снова.");
+      toast.error("Не удалось отправить RSVP. Попробуйте снова.");
     }
   };
 
@@ -38,20 +48,22 @@ const RSVPForm = () => {
 
   return (
     <div className="relative flex flex-col items-center justify-center p-4 mt-12">
+      <Toaster position="top-center" reverseOrder={false} />
 
-{/* {showConfetti && <Confetti width={width} height={height} />} */}
-{showConfetti && (
+      {showConfetti && (
         <div className="fixed inset-0 z-50">
           <Confetti 
-          width={width} 
-          height={height}  
-          numberOfPieces={500} 
-          gravity={0.2}  
-          colors={["#EF4444", "#DC2626", "#B91C1C"]} 
-          wind={0.02}
-          initialVelocityY={10} />
+            width={width} 
+            height={height}  
+            numberOfPieces={500} 
+            gravity={0.2}  
+            colors={["#EF4444", "#DC2626", "#B91C1C"]} 
+            wind={0.02}
+            initialVelocityY={10} 
+          />
         </div>
       )}
+
       {!showForm && ( 
         <button
           onClick={handleConfirmClick}
@@ -63,7 +75,7 @@ const RSVPForm = () => {
 
       {showForm && (
         <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-md mt-6 w-full max-w-md">
-          <h2 className="text-xl font-semibold mb-4 text-center">RSVP</h2>
+          <h2 className="text-xl text-great font-semibold mb-4 text-center">RSVP</h2>
 
           <input
             type="text"
@@ -97,8 +109,6 @@ const RSVPForm = () => {
             <option value="Нет">Нет</option>
           </select>
 
-        
-
           <select
             name="child"
             value={formData.child}
@@ -106,9 +116,9 @@ const RSVPForm = () => {
             className="w-full p-2 border rounded mb-2 outline-none"
             required
           >
-            <option  value="">Будет ли с вами ребёнок?</option>
-            <option  value="Да">Да</option>
-            <option  value="Нет">Нет</option>
+            <option value="">Будет ли с вами ребёнок?</option>
+            <option value="Да">Да</option>
+            <option value="Нет">Нет</option>
           </select>
 
           <button
@@ -124,4 +134,3 @@ const RSVPForm = () => {
 };
 
 export default RSVPForm;
-
