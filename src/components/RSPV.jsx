@@ -19,7 +19,7 @@ const RSVPForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:3000/webhook", formData);
+      await axios.post("https://khmiq.onrender.com//webhook", formData);
       alert("Ваш RSVP успешно отправлен!");
     } catch (error) {
       console.error("Ошибка отправки:", error);
@@ -97,25 +97,7 @@ const RSVPForm = () => {
             <option value="Нет">Нет</option>
           </select>
 
-          <input
-            type="text"
-            name="food"
-            placeholder="Какие блюда вы бы хотели увидеть на мероприятии? 🍽✨"
-            value={formData.food}
-            onChange={(e) => setFormData({ ...formData, food: e.target.value })}
-            className="w-full p-2 border rounded mb-2 outline-none"
-            required
-          />
-
-          <input
-            type="text"
-            name="drink"
-            placeholder="Какие напитки вы бы хотели видеть на мероприятии? 🍷🥂"
-            value={formData.drink}
-            onChange={(e) => setFormData({ ...formData, drink: e.target.value })}
-            className="w-full p-2 border rounded mb-2 outline-none"
-            required
-          />
+        
 
           <select
             name="child"

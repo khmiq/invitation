@@ -25,7 +25,7 @@ const Photos = () => {
        
         <div className="relative z-10 flex flex-col items-center ">
           <img 
-            className="rounded-[500px]  mt-4 p-20"
+            className="rounded-[500px]  mt-4 p-20 sm:p-10"
             src={pic1} 
             alt="Couple Photo" 
           />
@@ -33,7 +33,7 @@ const Photos = () => {
             Там, где посеяна любовь, растёт радость!
           </p>
           <img 
-            className="rounded-[500px] mt-4 p-20"
+            className="rounded-[500px] mt-4 p-20 sm:p-10"
             src={pic2} 
             alt="Couple Photo" 
           />
