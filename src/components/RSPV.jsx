@@ -19,7 +19,7 @@ const RSVPForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("https://khmiq.onrender.com", formData);
+      await axios.post("https://khmiq.onrender.com/webhook", formData);
       alert("Ваш RSVP успешно отправлен!");
     } catch (error) {
       console.error("Ошибка отправки:", error);
