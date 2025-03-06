@@ -163,7 +163,7 @@ const RSVPForm = () => {
     try {
       await axios.post("https://khmiq.onrender.com/webhook", formData);
 
-      toast.success("Ваш RSVP успешно отправлен! 🎉", { duration: 3000 });
+      toast.success("Ваш RSVP успешно отправлен! 🎉");
 
       // Reset form after submission
       setFormData({
