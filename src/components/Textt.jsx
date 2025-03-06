@@ -8,33 +8,6 @@ const Textt = () => {
     
    <div className='mt-6'>
    <h1 className="font-raleway  text-lg sm:text-sm md:text-2xl lg:text-3xl">
-    МЕНЮ
-    </h1>
-
-   
-    <p className="font-raleway text-sm sm:text-base md:text-lg lg:text-xl mt-4 sm:mt-6">
-    Меню разнообразно, поэтому сообщите нам заранее, если у вас есть какие-либо предпочтения или диетические ограничения. После подтверждения вы сможете пройти опрос о своих вкусовых предпочтениях и напитках.
-    </p>
-   </div>
-
-
-   <div className='mt-6'>
-    
-   <h1 className="font-raleway  text-lg sm:text-sm md:text-2xl lg:text-3xl">
-   ПОЖЕЛАНИЯ ПО ПОДАРКАМ
-    </h1>
-
-   
-    <p className="font-raleway text-sm sm:text-base md:text-lg lg:text-xl mt-4 sm:mt-6">
-    Ваше присутствие в день нашей свадьбы - самый значимый подарок для нас!
-
-Мы понимаем, что дарить цветы на свадьбу - это традиция, но мы не сможем насладиться их красотой в полной мере... 
-Будем рады любой другой альтернативе (вино или в денежном эквиваленте).
-    </p>
-   </div>
-
-   <div className='mt-6'>
-   <h1 className="font-raleway  text-lg sm:text-sm md:text-2xl lg:text-3xl">
    ПРИМЕЧАНИЕ
     </h1>
 
@@ -53,7 +26,7 @@ const Textt = () => {
 
    
     <p className="font-raleway text-sm sm:text-base md:text-lg lg:text-xl mt-4 sm:mt-6">
-    Пожалуйста подтвердите свое присутствие до 01.07.2025
+    Пожалуйста подтвердите свое присутствие до 01.08.2025
     </p>
    </div>
    
@@ -78,22 +51,7 @@ const Textt = () => {
    <h1 className="font-great text-amber-800 font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl mt-10">
    Ждем Вас на свадьбе!
    </h1>
-   <p className="font-raleway text-sm sm:text-base md:text-lg lg:text-xl mt-4 sm:mt-6">
-   Будем благодарны, если при выборе нарядов на наше торжество вы придержитесь следующей палитры
-   </p>
-
   
-     
-      <div className="flex gap-1 items-center justify-center mt-3">
-        <div className="w-12 h-12  rounded-full bg-red-500"></div>
-        <div className="w-12 h-12  rounded-full bg-red-600"></div>
-        <div className="w-12 h-12  rounded-full bg-red-700"></div>
-        <div className="w-12 h-12  rounded-full bg-red-800"></div>
-        <div className="w-12 h-12  rounded-full bg-red-900"></div>
-        <div className="w-12 h-12  rounded-full bg-red-950"></div>
-     
-    </div>
-
   
   </div>
   )

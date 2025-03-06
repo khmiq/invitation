@@ -84,7 +84,7 @@ const RSVPForm = () => {
           onSubmit={handleSubmit}
           className="bg-white p-6 rounded-lg shadow-md mt-6 w-full max-w-md"
         >
-          <h2 className="text-xl font-semibold mb-4 text-center">RSVP</h2>
+          <h2 className="text-xl font-great font-semibold mb-4 text-center">RSVP</h2>
 
           <input
             type="text"

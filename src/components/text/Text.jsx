@@ -10,12 +10,11 @@ const Text = () => {
 
      
       <p className="font-raleway text-sm sm:text-base md:text-lg lg:text-xl mt-4 sm:mt-6">
-        Мы рады сообщить Вам, что <span className="font-bold">25.08.2025</span> состоится самое главное торжество в нашей жизни - день нашей свадьбы!  
-        Приглашаем Вас разделить с нами радость этого незабываемого дня.
+      Мы  будем  рады  разделить  с  Вами  радость  неповторимого  для нас  дня – дня  нашей  свадьбы !
       </p>
 
       <p className="font-raleway text-sm sm:text-base md:text-lg lg:text-xl mt-4 sm:mt-6">
-      25.08.2025 в 10:00 <a className='underline font-great' href="https://maps.app.goo.gl/56phdd276V6qLS9c6">Verona Vaciapelli
+      25.08.2025 в 18:00 <a className='underline font-great' href="https://maps.app.goo.gl/56phdd276V6qLS9c6">Verona Vaciapelli
   Tашкент , ул. Арнасай , 35</a>
       </p>
 
