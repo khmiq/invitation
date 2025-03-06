@@ -1,7 +1,5 @@
 import React from 'react'
 import frame1 from "../assets/frame1.jpg";
-import frame2 from "../assets/frame2.jpg";
-import frame3 from "../assets/frame3.jpg";
 import pic3 from '../assets/pic3.jpg';
 
 const Textt = () => {
