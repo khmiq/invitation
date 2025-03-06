@@ -161,7 +161,7 @@ const RSVPForm = () => {
     setIsSubmitting(true); // Disable button while sending request
 
     try {
-      await axios.post("https://khmiq.onrender.com/webhook", formData, { timeout: 5000 });
+      await axios.post("https://khmiq.onrender.com/webhook", formData);
 
       toast.success("Ваш RSVP успешно отправлен! 🎉");
 
