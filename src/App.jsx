@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Showcase from './components/showcase/Showcase';
 import CountdownTimer from './components/Timer';
 import Text from './components/text/Text';
