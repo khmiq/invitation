@@ -45,7 +45,7 @@ const Textt = () => {
           />
    </div>
     <img className="w-full max-w-[500px] h-auto rounded-lg" src={frame1} alt="Wedding Photo" />
-   <h1 className="font-great text-amber-800 font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl mt-10">
+   <h1 className="font-great text-amber-800 font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl my-10">
    Ждем Вас на свадьбе!
    </h1>
   
