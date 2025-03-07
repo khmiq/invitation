@@ -1,3 +1,9 @@
-redirects:
-  - source: /*
-    destination: /index.html
+services:
+  - type: web
+    name: my-react-app
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: build
+    routes:
+      - src: "/(.*)"
+        dest: "/index.html"
