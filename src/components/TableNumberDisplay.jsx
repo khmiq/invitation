@@ -12,8 +12,8 @@ const TableNumberDisplay = () => {
     >
       {tableNumber && (
         <div className="text-center text-amber-800 flex flex-col items-center justify-center">
-          <h2 className="text-6xl sm:text-4xl font-great pt-">Ваш стол</h2>
-          <p className="text-9xl sm:text-6xl font-great mt-4">{tableNumber}</p>
+          <h2 className="md:text-6xl sm:text-4xl font-great pt-">Ваш стол</h2>
+          <p className="md:text-9xl sm:text-7xl font-great mt-4">{tableNumber}</p>
         </div>
       )}
     </div>
