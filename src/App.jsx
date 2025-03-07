@@ -7,6 +7,7 @@ import Textt from './components/Textt'
 import TableNumberDisplay from './components/TableNumberDisplay'
 import GoogleMap from './components/GoogleMap'
 import BackgroundMusic from './components/Bcgmusic'
+import { Route } from'react-router-dom'
 
 function App() {
 
