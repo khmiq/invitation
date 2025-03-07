@@ -6,7 +6,7 @@ const TableNumberDisplay = () => {
 
   return (
     <div 
-      className="flex items-center justify-center h-screen bg-cover bg-center text-white" 
+      className="flex items-center justify-center bg-cover bg-center text-amber-800" 
       style={{ backgroundImage: `url(${bcg2})` }} 
     >
       {tableNumber && (
