@@ -1,8 +1,7 @@
 import React from "react";
 import pic1 from "../assets/pic1.jpg";
 import bcg from "../assets/bcg.jpg";
-import pic2 from "../assets/pic2.jpg";
-import pic3 from "../assets/pic3.jpg";
+
 
 const Photos = () => {
   return (
@@ -32,12 +31,7 @@ const Photos = () => {
           <p className="font-great text-amber-800 mt-4 text-xl sm:text-xl md:text-2xl lg:text-3xl mb-6">
             Там, где посеяна любовь, растёт радость!
           </p>
-          <img 
-            className="rounded-[500px] mt-4 p-20 sm:p-10"
-            src={pic2} 
-            alt="Couple Photo" 
-          />
-          
+         
          
         </div>
       </div>

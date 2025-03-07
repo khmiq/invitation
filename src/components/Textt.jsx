@@ -6,6 +6,11 @@ const Textt = () => {
   return (
     <div className=" container text-center px-4 sm:px-6 md:px-8 max-w-[600px] mx-auto mt-16">
     
+   
+
+
+   
+
    <div className='mt-6'>
    <h1 className="font-raleway  text-lg sm:text-sm md:text-2xl lg:text-3xl">
    ПРИМЕЧАНИЕ
@@ -32,15 +37,7 @@ const Textt = () => {
    
 
    <div className='mt-6'>
-   <h1 className="font-raleway  text-lg sm:text-sm md:text-2xl lg:text-3xl">
-   ФОТО
-    </h1>
-   
-
-   
-    <p className="font-raleway text-sm sm:text-base md:text-lg lg:text-xl mt-4 sm:mt-6">
-    Опубликуйте фото дня нашей свадьбы в соц.сетях с хештегом #
-    </p>
+  
     <img 
             className="rounded-[500px] mt-4 px-4"
             src={pic3} 
@@ -52,6 +49,7 @@ const Textt = () => {
    Ждем Вас на свадьбе!
    </h1>
   
+
   
   </div>
   )

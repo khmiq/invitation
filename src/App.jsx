@@ -4,7 +4,7 @@ import CountdownTimer from './components/Timer'
 import Text from './components/text/Text'
 import Photos from './components/Photos'
 import Textt from './components/Textt'
-import RSVPForm from './components/RSPV'
+import TableNumberDisplay from './components/TableNumberDisplay'
 import GoogleMap from './components/GoogleMap'
 import BackgroundMusic from './components/Bcgmusic'
 
@@ -18,7 +18,7 @@ function App() {
       <Text/>
       <Photos/>
       <Textt/>
-      <RSVPForm/>
+      <Route path="/:tableNumber" element={<TableNumberDisplay />} /> 
       <GoogleMap/>
       <BackgroundMusic/>
       
