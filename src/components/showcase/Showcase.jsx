@@ -26,7 +26,7 @@ const Showcase = () => {
 <div className="flex justify-center gap-2">
   <div className="flex flex-col items-center">
     <span className="w-[50px] sm:w-[40px] md:w-[60px] h-[0.5px] bg-zinc-900"></span>
-    <p className="font-raleway text-sm sm:text-xs md:text-sm">Суббота</p>
+    <p className="font-raleway text-sm sm:text-xs md:text-sm">Понедельник</p>
     <span className="w-[50px] sm:w-[40px] md:w-[60px] h-[0.5px] bg-zinc-900"></span>
   </div>
 

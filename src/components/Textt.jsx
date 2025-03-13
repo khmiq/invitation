@@ -31,7 +31,7 @@ const Textt = () => {
 
    
     <p className="font-raleway text-sm sm:text-base md:text-lg lg:text-xl mt-4 sm:mt-6">
-    Пожалуйста подтвердите свое присутствие до 01.08.2025
+    Пожалуйста подтвердите свое присутствие до 15.08.2025
     </p>
    </div>
    
