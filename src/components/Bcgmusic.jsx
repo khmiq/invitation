@@ -42,9 +42,10 @@ const BackgroundMusic = () => {
       <audio ref={audioRef} src={bgMusic} loop />
       <button
         onClick={toggleMusic}
-        className="bg-green-700 text-white px-3 py-2 rounded-lg shadow-md hover:bg-green-900 transition"
+        className="bg-white border border-green-900 font-great text-green-900 px-3 py-2 rounded-lg shadow-md transition z-[1000000]"
+
       >
-        {isPlaying ? "Pause 🎵" : "Play ▶️"}
+        {isPlaying ? "Pause" : "Play"}
       </button>
     </div>
   );

@@ -22,7 +22,7 @@ const Photos = () => {
         <div className="absolute inset-y-0 left-[10%] right-[10%] backdrop-blur-[2px]"></div>
 
        
-        <div className="relative z-10 flex flex-col items-center ">
+        <div className="relative z-2 flex flex-col items-center ">
           <img 
             className="rounded-[500px]  mt-4 p-20 sm:p-10"
             src={pic1} 
