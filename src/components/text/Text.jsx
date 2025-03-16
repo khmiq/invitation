@@ -18,6 +18,8 @@ const Text = () => {
   Tашкент , ул. Арнасай , 35</a>
       </p>
 
+      <p className='font-great text-5xl sm:text-3xl md:text-4xl lg:text-5xl text-amber-900 pt-8'>25 ∞ 25</p>
+
 
     
     </div>
